@@ -1,0 +1,218 @@
+body {
+    overflow-x: hidden; 
+    background-color: #fff;
+        
+  }
+
+.slika6{
+
+    width: 284px;
+    height: 195.88pxpx;
+    top: 334.78px;
+    left: -8px;
+}
+
+.slika5{
+    width: 196.88pxpx;
+    height: 220.49px;
+    top: 422px;
+    left: 120.29px;
+}
+.slika1{
+    width: 182.56px;
+    height: 462px;
+    top: 153px;
+    left: 160.02px;
+
+
+}
+.custom-col{
+    position: relative;
+    top: -222px; /* Prilagodite vrednost prema potrebi */
+}
+
+.custom-frame {
+    width: 319px;
+    height: 50px;
+    padding: 10px;
+    background: #69A37A;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .custom-button {
+    color: #202020;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+
+  .gradient{
+    background: linear-gradient(180deg, #EEFFF3 23.1%, rgba(214, 163, 63, 56%) 118.25%);
+    width: 100%;
+  height: 100%;
+
+  }
+
+  .circle {
+    width: 30px;
+    height: 30px; 
+    background-color: #69A37A; 
+    border: 2px solid #92E3A9; 
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .circle img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+  }
+ #coctailInput{
+  background-color: #EEFFF3;
+  border: 1px solid #69A37A;
+ }
+ 
+ .custom-frame:hover{ 
+    background-color:#9fffbc; 
+    
+ }
+
+ /* Postavljanje stilova za slike */
+.background-container {
+  position: relative;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.top-left-image {
+  position: absolute;
+  bottom: 138px;
+  left: -12px;
+  width: 190px; /* Prilagodite veličinu slike prema potrebi */
+  height: 366px; /* Prilagodite veličinu slike prema potrebi */
+}
+
+.top-right-image {
+  position: absolute;
+  top: -9px;
+  right: -12px;
+  width: 319px; /* Prilagodite veličinu slike prema potrebi */
+  height: 406px; 
+  /* Prilagodite veličinu slike prema potrebi */
+}
+
+.img1{
+  position: absolute;
+  top: 302px;
+  width: 169px; /* Prilagodite veličinu slike prema potrebi */
+  height: 205px; 
+}
+.img2{
+  position: absolute;
+  top: 130px;
+  width: 298px; /* Prilagodite veličinu slike prema potrebi */
+  height: 733px;
+  right: -12px;
+}
+
+.img3{
+  position: absolute;
+  bottom: 142px;
+  width: 264px; /* Prilagodite veličinu slike prema potrebi */
+  height: 286px;
+  right: 162px;
+}
+
+#cocktailTitle {
+  font-size: 48px;
+  color: #2E2E2E;
+}
+
+#cocktailSubtitle {
+  font-size: 20px;
+  color: #4E4D4D;
+}
+:root {
+  --btn-width: 319px;
+  --btn-height: 50px;
+  --btn-padding-left: 137px;
+  --btn-padding-right: 137px;
+  --btn-padding-top: 10px;
+  --btn-padding-bottom: 10px;
+  --btn-background: #69A37A;
+  --btn-border-radius: 6px;
+  --btn-font-color: #FFFFFF; /* Promenjeno u belu boju teksta */
+  --btn-font-size: 20px;
+  --btn-font-family: 'Poppins';
+  --btn-font-weight: 500;
+  --btn-margin-top: 20px;
+  --btn-margin-bottom: 50px; /* Povećano za dodatni margin na dnu */
+}
+
+.custom-btn {
+  width: var(--btn-width);
+  height: var(--btn-height);
+  padding-left: var(--btn-padding-left);
+  padding-right: var(--btn-padding-right);
+  padding-top: var(--btn-padding-top);
+  padding-bottom: var(--btn-padding-bottom);
+  background: var(--btn-background);
+  border-radius: var(--btn-border-radius);
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  margin-top: var(--btn-margin-top);
+  margin-bottom: var(--btn-margin-bottom);
+}
+
+.custom-btn div {
+  color: var(--btn-font-color);
+  font-size: var(--btn-font-size);
+  font-family: var(--btn-font-family);
+  font-weight: var(--btn-font-weight);
+  word-wrap: break-word;
+}
+
+.custom-card {
+  max-width: 22rem;
+  background-color: #EEFFF3; /* Boja pozadine kartice */
+  color: #2E2E2E; /* Boja teksta unutar kartice */
+  margin: 30px auto; /* Centriranje kartice */
+}
+
+.card-ingredients {
+  color: #2E2E2E; /* Boja teksta za sastojke */
+  text-align: left; /* Centriranje teksta u levo */
+  margin-bottom: 1px;
+}
+
+.title{
+text-align: center;
+margin-bottom: 10px;
+font-size: 24px;
+color: #084B1C;
+}
+.ingredients{
+  margin-bottom: 18px;
+  font-size: 17px;
+  color: #2E2E2E;
+
+}
+
+.card-text:last-child {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, please refer to the docs:
+            https://cordova.apache.org/docs/en/latest/
+        Some notes:
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'  data: gap: https://api.api-ninjas.com https://ssl.gstatic.com 'unsafe-eval'; script-src 'self' https://code.jquery.com https://maxcdn.bootstrapcdn.com https://cdn.jsdelivr.net 'unsafe-inline'; style-src 'self' https://cdn.jsdelivr.net  'unsafe-inline'; media-src *">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/index.css">
+        
+        <title>Hello World</title>
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="row mt-5 mb-5 ms-3 me-3 align-items-center ">
+              <!-- Lijeva kolona za ikonu -->
+              <div class="col-6 ">
+                <a href="index.html">
+                <i class="icon">
+                    <div class="circle">
+                      <img src="assets/chevron-left.png" alt="Strelica">
+                    </div>
+                  </i>
+                </a>
+              </div>
+              <!-- Desna kolona -->
+              <div class="col-6">
+                
+              </div>
+            </div>
+            <!-- Tekst ispod ikone  -->
+            <div class="row m-2 ms-3 me-3 mb-3">
+              <div class="col-12">
+                <h1 class="text-left">Enter the name of the alcohol or cocktail</h1>
+              </div>
+            </div>
+            <!-- Search bar ispod teksta -->
+            <div class="row m-2 ms-3 me-3">
+              <div class="col-12">
+                  <div class="input-group">
+                      <input type="text" class="form-control" id="coctailInput" placeholder="Enter cocktail name" aria-label="Cocktail name" aria-describedby="basic-addon2">
+                      <div class="input-group-append">
+                          <button class="btn btn-outline-secondary" type="button" onclick="searchCoctail()">Search</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-12 d-flex justify-content-end">
+              <!-- slika koktela -->
+              <img src="assets/image2.png" alt="Cocktail Image">
+            </div>
+          </div>
+        </div>
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
